@@ -1,0 +1,145 @@
+
+.whole{
+    border-radius: 10px;
+    height: 650px;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    margin-top: -325px;
+    left: 50%;
+    margin-left: -45%;
+    background: black;
+    overflow: hidden;
+}
+.bg{
+    width: 100%;
+    height: 200px;
+    background: url("img/58pic_525216480cd2b.jpg");
+    background-size: 100% ;
+}
+.id{
+    width: 100%;
+    height: 320px;
+    background: #303d25;
+}
+.id>div{
+    position: absolute;
+    top: 232px;;
+    left: 50%;
+    width: 75%;
+    height: 256px;
+    margin-left: -37.5%;
+
+}
+.person{
+    width: 100%;
+    height: 45%;
+}
+.touxiang{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    border: 3px white solid;
+    display: inline-block;
+    background: url("img/IMG_1388.jpg");
+    background-size: 85px 105px;
+    overflow: hidden;
+}
+.things{
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.things>div{
+    text-align: left;
+}
+.name{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 8px;
+}
+.job{
+    color: #fdffab;
+    font-size: 15px;
+}
+.words{
+    width: 100%;
+    height: 55%;
+    text-align: center;
+}
+.words>p{
+    word-break: break-all;
+    color: #faffef;
+    font-size: 10px;
+    text-align: left;
+    line-height: 20px;
+}
+.content{
+    width: 100%;
+    height: 450px;
+}
+.message{
+    height: 130px;
+    background: #607950;
+    text-align: center;
+}
+
+.message>div.messageDiv{
+   width: 60%;
+    display: inline-block;
+    text-align: center;
+}
+.message>div.messageDiv>div{
+    margin-top: 35px;
+}
+.message>div.icon{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.gay{
+
+}
+.follow{
+    width: 48%;
+    display: inline-block;
+}
+.followerNum{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.messageHr{
+    color: white;
+    opacity: 0.2;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 3px;
+    vertical-align: top;
+
+}
+.followers{
+    color: white;
+    font-size: 15px;
+    opacity: 0.2;
+    vertical-align: top;
+    display: inline;
+}
+.following{
+    width: 48%;
+    display: inline-block;
+}
+.followingNum{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.followings{
+    color: white;
+    font-size: 15px;
+    opacity: 0.2;
+    vertical-align: top;
+    display: inline;
+}
